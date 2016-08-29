@@ -6,12 +6,24 @@ h3{font-family:'microsoft yahei';font-size: 16px;font-weight: normal;}
 .mainbody{width: 1190px;margin: 0 auto;}
 .navUl{width: 210px; min-height: 410px;float: left;background-color: #454343;}
 .navUl h3{font-size: 16px;color:#FFF;background-color: #262626;display:block;width: 165px;height: 40px;padding-left: 45px;line-height: 40px;}
-.navUl li{height: 40px;line-height: 40px;font-family:'microsoft yahei';font-size: 14px;}
-.navUl li:hover{position: relative;width: 175px;}
+.navUl li{height: 40px;line-height: 40px;font-family:'microsoft yahei';font-size: 14px;position: relative;}
 .navUl a {color: #FFF;text-decoration: none;display: block;padding-left: 45px;width: 165px;height: 40px;}
+.navUl .active{color: #FFF;text-decoration: none;width: 172px;background-color: #b50912;}
+.navUl .active .arrow{display: block!important;}
 .navUl a:hover{color: #FFF;text-decoration: none;width: 172px;background-color: #b50912;}
-.navUl a:hover:after{background:url(../images/nav_arr.png);float: right;}
+.navUl a:hover .arrow{display: block!important;}
 .navUl a:visited{color: #FFF;text-decoration: none;}
+.navUl .arrow {
+	 width: 0; height: 0;
+	 line-height: 0;
+	 border-right: 8px solid transparent;
+	 border-top: 8px solid #7c0007;
+	 position: absolute;
+	 right: -7px;
+	 bottom: -8px;
+	 display: none;
+	
+}
 
 /*我的账户资料 内容部分样式*/
 .content{width: 963px;min-height: 410px;float: left; border:1px solid #dcdcdc;margin-left: 15px;position: relative;}
