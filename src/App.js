@@ -1,8 +1,13 @@
 import React from 'react'
+import Aside from "./Aside.js"
+import Account from "./Account.js"
 export default React.createClass({
 	render: function() {
 		return (
-			<div>大家好！</div>
+			<div className="mainbody">
+				<Aside />
+				<Account />
+			</div>
 		);
 	}
 })

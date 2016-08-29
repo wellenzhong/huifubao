@@ -1,5 +1,5 @@
 import React from 'react'
-import Hello from 'App.js'
+import Hello from './App.js'
 React.render(
 	<Hello />
 	,document.getElementById('mainBody'))

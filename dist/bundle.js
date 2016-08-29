@@ -50,7 +50,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _App = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"App.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _App = __webpack_require__(158);
 
 	var _App2 = _interopRequireDefault(_App);
 
@@ -19722,6 +19722,274 @@
 
 	module.exports = deprecated;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
+
+/***/ },
+/* 158 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Aside = __webpack_require__(159);
+
+	var _Aside2 = _interopRequireDefault(_Aside);
+
+	var _Account = __webpack_require__(160);
+
+	var _Account2 = _interopRequireDefault(_Account);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = _react2.default.createClass({
+		displayName: "App",
+
+		render: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "mainbody" },
+				_react2.default.createElement(_Aside2.default, null),
+				_react2.default.createElement(_Account2.default, null)
+			);
+		}
+	});
+
+/***/ },
+/* 159 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = _react2.default.createClass({
+		displayName: "Aside",
+
+		render: function render() {
+			return _react2.default.createElement(
+				"aside",
+				null,
+				_react2.default.createElement(
+					"ul",
+					{ className: "navUl" },
+					_react2.default.createElement(
+						"h3",
+						null,
+						"我的慧付宝"
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#", className: "active" },
+							"首页",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"账户资料",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"修改手机号",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"修改支付密码",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"修改邮箱 ",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"我的银行卡",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"提现",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					),
+					_react2.default.createElement(
+						"li",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "#" },
+							"交易记录",
+							_react2.default.createElement("span", { className: "arrow" })
+						)
+					)
+				)
+			);
+		}
+	});
+
+/***/ },
+/* 160 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = _react2.default.createClass({
+		displayName: "Account",
+
+		render: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "content" },
+				_react2.default.createElement(
+					"div",
+					{ className: "conTitlebar" },
+					_react2.default.createElement(
+						"h3",
+						null,
+						"账户资料"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "conBody" },
+					_react2.default.createElement(
+						"div",
+						{ className: "account" },
+						_react2.default.createElement(
+							"p",
+							null,
+							_react2.default.createElement(
+								"span",
+								{ className: "accAttrName" },
+								"真实姓名："
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "accName" },
+								"陈小林"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "accVerified " },
+								"已实名"
+							)
+						),
+						_react2.default.createElement(
+							"p",
+							null,
+							_react2.default.createElement(
+								"span",
+								{ className: "accAttrName" },
+								"身份证号："
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "accId" },
+								"4301************34"
+							)
+						),
+						_react2.default.createElement(
+							"p",
+							null,
+							_react2.default.createElement(
+								"span",
+								{ className: "accAttrName" },
+								"手机号码："
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "accTel" },
+								"138******88"
+							),
+							_react2.default.createElement(
+								"a",
+								{ href: "#" },
+								"修改"
+							)
+						),
+						_react2.default.createElement(
+							"p",
+							null,
+							_react2.default.createElement(
+								"span",
+								{ className: "accAttrName" },
+								"邮      箱："
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "accEmail" },
+								"hujfhs@163.com"
+							),
+							_react2.default.createElement(
+								"a",
+								{ href: "email-modify.html" },
+								"修改"
+							)
+						)
+					)
+				)
+			);
+		}
+	});
 
 /***/ }
 /******/ ]);
