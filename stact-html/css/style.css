@@ -1,0 +1,52 @@
+body{font-family: 'microsoft yahei';font-size:14px;color: #434344;}
+ul,dl,h1,h2,h3,h4,h5,h6,p{list-style: none;padding: 0;margin: 0;}
+h3{font-family:'microsoft yahei';font-size: 16px;font-weight: normal;}
+.cl{clear: both;}
+/*导航栏样式*/
+.mainbody{width: 1190px;margin: 0 auto;}
+.navUl{width: 210px; min-height: 410px;float: left;background-color: #454343;}
+.navUl h3{font-size: 16px;color:#FFF;background-color: #262626;display:block;width: 165px;height: 40px;padding-left: 45px;line-height: 40px;}
+.navUl li{height: 40px;line-height: 40px;font-family:'microsoft yahei';font-size: 14px;}
+.navUl li:hover{position: relative;width: 175px;}
+.navUl a {color: #FFF;text-decoration: none;display: block;padding-left: 45px;width: 165px;height: 40px;}
+.navUl a:hover{color: #FFF;text-decoration: none;width: 172px;background-color: #b50912;}
+.navUl a:hover:after{background:url(../images/nav_arr.png);float: right;}
+.navUl a:visited{color: #FFF;text-decoration: none;}
+
+/*我的账户资料 内容部分样式*/
+.content{width: 963px;min-height: 410px;float: left; border:1px solid #dcdcdc;margin-left: 15px;position: relative;}
+.conTitlebar{height: 40px;border-bottom: 1px solid #dcdcdc;line-height: 40px;}
+.conTitlebar h3{margin-left: 20px;}
+.conBody {width: 900px;padding-left: 20px;margin-top: 20px;}
+.conBody .account  p{height: 50px;line-height: 50px;}
+.conBody .account  span{margin-right:10px;}
+.conBody .account  a{color: #c7000a;text-decoration:underline;}
+.accVerified,.accNotVerified{display: inline-block;width: 50px;height: 20px;border-radius: 5px;text-align: center;line-height: 20px;color: #FFF;} 
+.accVerified{background-color: #0d6fb8;}
+.accNotVerified{background-color: #9B9B9B;}
+.accAttrName{display:inline-block;width:70px;text-align: justify;text-justify:distribute-all-lines;/*ie6-8*/  text-align-last:justify;/* ie9*/-moz-text-align-last:justify;/*ff*/-webkit-text-align-last:justify;/*chrome 20+*/}
+.accId,.accTel,.accEmail{display: inline-block;width: 150px;}
+
+/*邮箱修改页样式*/
+.modifyGuideStep1{width: 410px;height: 150px;background: url('../images/guideline.png')  130px 55px no-repeat;margin: 0 auto;}
+.modiEmail .step1{width:110px;height: 110px;float: left;background: url('../images/step1.png') center no-repeat;font-size: 20px;color: #c7000a;text-align: center;}
+.modiEmail .step1 span{width:auto;height:auto;display: block;margin: 45px auto;}
+.nextStep{width: 280px;height: 30px;float: right;margin-top: 90px;}
+.nextStep span{margin-left: 80px;font-size: 16px;color: #9d9d9d;}
+.modiForm{height: 450px;}
+.modiEmail p{height: 50px;line-height: 50px;}
+.modiEmail p span:first-child{display:inline-block;width: 100px;height: 50px;line-height: 50px;text-align: right;}
+.bankCardId,.cardHolderName,.cardHolderId,.cardHolderTel,.newEmail,.confirmNewEmail{width: 185px;height: 37px;outline: none;border: 1px solid #DBDBDB;font-family: 'microsoft yahei';font-size: 14px;padding-left: 15px;color: #434344;}
+.dateFrom,.dateTo,.verifCode{width: 145px;height: 37px;border: 1px solid #DBDBDB;padding-left: 15px;}
+.getVerifCode{width:100px;height:37px;outline: none;background-color: #0d6fb8;font-family: 'microsoft yahei';font-size: 12px;margin: 0 15px;border: none;color: #FFF;}
+.getVerifCode:hover{cursor:pointer;background-color: #0365af;}
+.modiEmail .submitBtn{width: 150px;height: 37px;outline: none;background-color: #c7000a;font-family: "microsoft yahei";font-size: 16px;color: #FFF;border: none;cursor: pointer;text-align: center;display: block;margin: 20px auto;}
+/*邮箱修改第二页*/
+.modifyGuideStep2{width: 410px;height: 150px;margin: 0 auto;margin-bottom: 60px;}
+.modiEmail .preStep{width: 150px;height: 120px;float: left;background: url('../images/guideline2.png') 20px 50px no-repeat;}
+.modiEmail .step2{width:110px;height: 110px;float: left;background: url('../images/step2.png') center no-repeat;font-size: 20px;color: #c7000a;text-align: center;}
+.modiEmail .step2 span{display: inline-block;height: 30px;margin-top: 42px;}
+.nextStep3{width: 130px;height: 130px;background:url('../images/guideline.png') 8px 50px no-repeat;float: left;}
+.preVerif{margin-top:80px;display: inline-block;width: 100px;height: 30px;font-size: 16px;color:#c7000a; }
+.nextStep3 span{display: inline-block;height: 30px;margin-top: 80px;font-size: 16px;text-align: right;float: right;position: relative;right: -10px;}
+.modiFormStep2{height: 270px;}
