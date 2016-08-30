@@ -29,7 +29,7 @@ h3{font-family:'microsoft yahei';font-size: 16px;font-weight: normal;}
 .content{width: 963px;min-height: 410px;float: left; border:1px solid #dcdcdc;margin-left: 15px;position: relative;}
 .conTitlebar{height: 40px;border-bottom: 1px solid #dcdcdc;line-height: 40px;}
 .conTitlebar h3{margin-left: 20px;display: inline-block;}
-.conTitlebar span{display:inline-block;font-size: 16px;color: #9d9d9d;float: right;margin-right: 20px;}
+.conTitlebar .mberSer{display:inline-block;font-size: 16px;color: #9d9d9d;float: right;margin-right: 20px;}
 .conBody {width: 900px;padding-left: 20px;margin-top: 20px;}
 .conBody .account  p{height: 50px;line-height: 50px;}
 .conBody .account  span{margin-right:10px;}
@@ -47,6 +47,9 @@ h3{font-family:'microsoft yahei';font-size: 16px;font-weight: normal;}
 .nextStep{width: 280px;height: 30px;float: right;margin-top: 90px;}
 .nextStep span{margin-left: 80px;font-size: 16px;color: #9d9d9d;}
 .modiForm{height: 450px;}
+.idVerifTit{font-size: 14px;color: #434343;margin-bottom: 50px;}
+.idVerifTit strong{font-size: 16px;color: #c7000b;padding: 10px;}
+.fromTo{padding: 0 10px;}
 .modiEmail .modiFormStep2 p{height: 50px;line-height: 50px;}
 .modiEmail p span:first-child{display:inline-block;width: 100px;height: 50px;line-height: 50px;text-align: right;}
 .bankCardId,.cardHolderName,.cardHolderId,.cardHolderTel,.newEmail,.confirmNewEmail{width: 185px;height: 37px;outline: none;border: 1px solid #DBDBDB;font-family: 'microsoft yahei';font-size: 14px;padding-left: 15px;color: #434344;}

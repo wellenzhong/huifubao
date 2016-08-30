@@ -10,20 +10,20 @@
 		<aside>
 			<ul class="navUl">
 				<h3>我的慧付宝</h3>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">账户资料</a></li>
-				<li><a href="#">修改手机号</a></li>
-				<li><a href="#">修改支付密码</a></li>
-				<li><a href="#">修改邮箱 </a></li>
-				<li><a href="#">我的银行卡</a></li>
-				<li><a href="#">提现</a></li>
-				<li><a href="#">交易记录</a></li>
+				<li ><a href="#">首页<span class="arrow"></span></a></li>
+				<li><a href="#">账户资料<span class="arrow"></span></a></li>
+				<li><a href="#">修改手机号<span class="arrow"></span></a></li>
+				<li><a href="#">修改支付密码<span class="arrow"></span></a></li>
+				<li><a href="#" class="active">修改邮箱 <span class="arrow"></span></a></li>
+				<li><a href="#">我的银行卡<span class="arrow"></span></a></li>
+				<li><a href="#">提现<span class="arrow"></span></a></li>
+				<li><a href="#">交易记录<span class="arrow"></span></a></li>
 			</ul>
 		</aside>
 		<div class="content">
 			<div class="conTitlebar">
 				<h3>修改邮箱</h3>
-				<span>客服电话：0775-22336000</span>
+				<span class="mberSer">客服电话：0775-22336000</span>
 			</div>
 			<div class="conBody">
 			<div class="modiEmail">
@@ -32,10 +32,10 @@
 					<div class="nextStep"><span>修改邮箱</span><span>成功</span></div>
 				</div>
 				<div class="modiForm">
-				<p>您正在使用<i>银行卡验证</i>进行校验:</p>
+				<p class="idVerifTit">您正在使用<strong>&quot;银行卡验证&quot;</strong>进行校验:</p>
 					<form action="#">
 						<p><span>银行卡号：</span><input type="text" name="bankCardId" id="bankCardId"  class="bankCardId" /></p>
-						<p><span>有效期：</span><input type="text" name="dateFrom" id="dateFrom" class="dateFrom" />至<input type="text" name="dateTo" id="dateTo" class="dateTo" /></p>
+						<p><span>有效期：</span><input type="text" name="dateFrom" id="dateFrom" class="dateFrom" /><span class="fromTo">至</span><input type="text" name="dateTo" id="dateTo" class="dateTo" /></p>
 						<p><span>持卡人姓名：</span><input type="text" name="cardHolderName" id="cardHolderName"  class="cardHolderName" /></p>
 						<p><span>身份证号码：</span><input type="text" name="cardHolderId" id="cardHolderId"  class="cardHolderId" /></p>
 						<p><span>手机号码：</span><input type="text" name="cardHolderTel" id="cardHolderTel" class="cardHolderTel" /><button class="getVerifCode">获取验证码</button><span>请输入银行预留手机号</span></p>
